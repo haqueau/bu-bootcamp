@@ -7,14 +7,14 @@ public class ContactManager {
         HashMap<String, Contact> contacts = new HashMap<>();
 
         // Step 4: add contacts here
-        contacts.put("Ben Dover", new Contact("Ben Dover", "+1 123 123 1234"));
-        contacts.put("Mike Hawk", new Contact("Mike Hawk", "+1 123 123 1235"));
-        contacts.put("Mike Hunt", new Contact("Mike Hunt", "+1 123 123 1236"));
-        contacts.put("Joe Momma", new Contact("Joe Momma", "+1 123 123 1237"));
-        contacts.put("Eileen Dover", new Contact("Eileen Dover", "+1 123 123 1238"));
+        contacts.put("John Smith", new Contact("John Smith", "+1 123 123 1234"));
+        contacts.put("Jane Doe", new Contact("Jane Doe", "+1 123 123 1235"));
+        contacts.put("William Hunt", new Contact("William Hunt", "+1 123 123 1236"));
+        contacts.put("Tim Cook", new Contact("Tim Cook", "+1 123 123 1237"));
+        contacts.put("Mary Jane", new Contact("Mary Jane", "+1 123 123 1238"));
 
         // Step 5: look up a contact
-        String lookup = "Ben Dover";
+        String lookup = "John Smith";
         System.out.println("Looking up: " + lookup);
         Contact found = contacts.get(lookup);
         if (found == null) {
